@@ -1,5 +1,5 @@
 /**
- * Infinitos parametros 
+ * Maneira de criar um método com Infinitos parametros 
  * @param nome 
  * @param outrosNomes 
  */
