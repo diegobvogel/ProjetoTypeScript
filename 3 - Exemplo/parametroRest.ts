@@ -1,7 +1,7 @@
 /**
  * Maneira de criar um método com Infinitos parametros 
- * @param nome 
- * @param outrosNomes 
+ * @param nome string
+ * @param outrosNomes string[]
  */
 function parametroRest(nome: string, ...outrosNomes: string[]){
     return "nome: " + nome + " " + outrosNomes.join(",");
@@ -9,3 +9,4 @@ function parametroRest(nome: string, ...outrosNomes: string[]){
 
 let fullName = parametroRest("Diego", "Bruno", "Vogel", "da Silva", "Sauro");
 console.log(fullName);
+
